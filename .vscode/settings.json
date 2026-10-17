@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "lms",
+            "database": "postgresql://postgres:hodg@127.0.0.1:5432/lmscap?schema=public",
+            "username": "postgres"
+        }
+    ]
+}
