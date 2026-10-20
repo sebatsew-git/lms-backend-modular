@@ -7,8 +7,8 @@
             "port": 5432,
             "driver": "PostgreSQL",
             "name": "lms",
-            "database": "postgresql://postgres:hodg@127.0.0.1:5432/lmscap?schema=public",
-            "username": "postgres"
+            "username": "postgres",
+            "database": "postgresql://postgres:hodg1hodg@127.0.0.1:5432/lmscap?schema=public"
         }
     ]
 }
