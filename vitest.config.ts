@@ -1,3 +1,7 @@
+/**
+ * Configures Vitest for the project test suite. Defines the test environment and shared setup used when running tests.
+ */
+
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
