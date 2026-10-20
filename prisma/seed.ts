@@ -1,6 +1,8 @@
 /**
- * Root-level Prisma seed entry point.
- * Re-exports the seed logic from `src/database/seed.ts`.
- * Supports Prisma's conventional database-seed command.
+ * Root-level seed entry point.
+ *
+ * The seed logic lives in `src/database/seed.ts` — that is what `npm run prisma:seed`
+ * executes. This shim exists so the conventional `npx prisma db seed` and
+ * `npx tsx prisma/seed.ts` invocations also work from the repository root.
  */
 import '../src/database/seed';

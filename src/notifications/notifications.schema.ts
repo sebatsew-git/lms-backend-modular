@@ -1,7 +1,3 @@
-/**
- * Defines Zod validation schemas for N Ot If Ic At Io Ns requests. Exports rules used to validate incoming parameters and payloads before processing.
- */
-
 import { z } from 'zod';
 
 export const notificationIdSchema = z.object({

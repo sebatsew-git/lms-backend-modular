@@ -1,7 +1,3 @@
-/**
- * Defines Zod validation schemas for E Nr Ol Lm En Ts requests. Exports rules used to validate incoming parameters and payloads before processing.
- */
-
 import { z } from 'zod';
 
 export const enrollSchema = z.object({

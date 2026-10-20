@@ -1,7 +1,3 @@
-/**
- * Defines Zod validation schemas for M Od Ul Es requests. Exports rules used to validate incoming parameters and payloads before processing.
- */
-
 import { z } from 'zod';
 
 export const createModuleSchema = z.object({
