@@ -1,4 +1,4 @@
-# Learning Management System Backend
+# Learning Management System Backend.
 
 A feature-oriented REST API for a Learning Management System (LMS), built with
 TypeScript, Express, Prisma, and PostgreSQL. It provides course and learning-content
@@ -323,6 +323,8 @@ defaults when importing the application. Tests are located in `tests/`.
 - Replace the in-process queue with a durable, shared queue when reliability or
   horizontal scaling requires it.
 - Apply migrations with `npx prisma migrate deploy` during deployment.
-#   L M S - m o d u l a r  
- #   L M S - m o d u l a r  
+#   L M S - m o d u l a r 
+ 
+ #   L M S - m o d u l a r 
+ 
  
