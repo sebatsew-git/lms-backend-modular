@@ -1,3 +1,7 @@
+/**
+ * Implements business operations for M Od Ul Es. Coordinates persistence and related feature services behind the API layer.
+ */
+
 import { prisma } from '../database/prisma';
 import { NotFoundError } from '../common/errors/AppError';
 

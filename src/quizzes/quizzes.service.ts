@@ -1,3 +1,7 @@
+/**
+ * Implements business operations for Q Ui Zz Es. Coordinates persistence and related feature services behind the API layer.
+ */
+
 import { prisma } from '../database/prisma';
 import { NotFoundError, BadRequestError, ForbiddenError } from '../common/errors/AppError';
 import { QuizStatus, Prisma } from '@prisma/client';

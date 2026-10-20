@@ -1,3 +1,7 @@
+/**
+ * Queues AI feedback and quiz-generation work outside the request path. Notifies users when background AI tasks complete.
+ */
+
 import { enqueue } from './queue';
 import { generateAiFeedback, generateAiQuiz } from '../ai/ai.service';
 import { notifyAiFeedbackReady } from '../notifications/notifications.service';

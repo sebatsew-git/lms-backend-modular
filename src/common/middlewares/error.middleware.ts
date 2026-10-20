@@ -1,3 +1,7 @@
+/**
+ * Converts application and unexpected errors into consistent API responses. Applies the project error-handling policy to Express requests.
+ */
+
 import { Request, Response, NextFunction } from 'express';
 import { AppError } from '../errors/AppError';
 import { Prisma } from '@prisma/client';

@@ -1,3 +1,7 @@
+/**
+ * Defines the metadata shape used for stored files. Shares consistent file information between upload middleware and services.
+ */
+
 export interface StoredFileMeta {
   fileUrl: string;
   fileName: string;

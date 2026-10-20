@@ -1,3 +1,7 @@
+/**
+ * Handles HTTP requests for AI features. Delegates business logic to the AI service and formats API responses.
+ */
+
 import { Request, Response } from 'express';
 import { asyncHandler } from '../common/utils/asyncHandler';
 import * as aiService from './ai.service';

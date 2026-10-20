@@ -1,3 +1,7 @@
+/**
+ * Builds reusable HTML templates for LMS email messages. Exports the welcome, submission, grading, and account-related templates.
+ */
+
 const shell = (body: string) => `
   <div style="font-family:Arial,Helvetica,sans-serif;max-width:600px;margin:auto;padding:24px;color:#0f172a;">
     ${body}

@@ -1,3 +1,7 @@
+/**
+ * Starts the LMS HTTP server using the configured application. Initializes shared services and handles graceful process shutdown.
+ */
+
 import app from './app';
 import { env } from './common/config/env';
 import { prisma } from './database/prisma';

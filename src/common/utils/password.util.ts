@@ -1,3 +1,7 @@
+/**
+ * Hashes passwords and verifies submitted credentials using Argon2. Centralizes secure password handling for account operations.
+ */
+
 import argon2 from 'argon2';
 
 export const hashPassword = (plain: string) =>

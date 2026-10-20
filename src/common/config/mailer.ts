@@ -1,3 +1,7 @@
+/**
+ * Configures the Nodemailer transport from application settings. Exports the shared transport used to send email.
+ */
+
 import nodemailer from 'nodemailer';
 import { env } from './env';
 

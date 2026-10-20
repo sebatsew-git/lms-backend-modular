@@ -1,3 +1,7 @@
+/**
+ * Creates and configures the Express application. Registers middleware, API routes, health checks, and API documentation.
+ */
+
 import express from 'express';
 import helmet from 'helmet';
 import cors from 'cors';

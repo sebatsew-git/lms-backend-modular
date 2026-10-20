@@ -1,3 +1,7 @@
+/**
+ * Loads and validates environment variables required by the application. Exposes typed configuration and reports invalid settings.
+ */
+
 import dotenv from 'dotenv';
 import { z } from 'zod';
 

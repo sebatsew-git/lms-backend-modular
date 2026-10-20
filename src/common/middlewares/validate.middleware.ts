@@ -1,3 +1,7 @@
+/**
+ * Validates request data with Zod schemas before route handlers run. Converts validation failures into structured client errors.
+ */
+
 import { Request, Response, NextFunction } from 'express';
 import { AnyZodObject, ZodError } from 'zod';
 

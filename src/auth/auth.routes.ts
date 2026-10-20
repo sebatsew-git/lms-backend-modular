@@ -1,3 +1,7 @@
+/**
+ * Defines Express endpoints for A Ut H operations. Connects request handlers and applies the relevant authentication or authorization middleware.
+ */
+
 import { Router } from 'express';
 import * as authController from './auth.controller';
 import { authenticate } from './guards/authenticate.guard';

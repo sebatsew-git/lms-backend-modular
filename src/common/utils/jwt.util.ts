@@ -1,3 +1,7 @@
+/**
+ * Creates, verifies, and hashes authentication tokens. Provides access-token and refresh-token helpers for the authentication flow.
+ */
+
 import jwt, { SignOptions } from 'jsonwebtoken';
 import crypto from 'crypto';
 import { env } from '../config/env';

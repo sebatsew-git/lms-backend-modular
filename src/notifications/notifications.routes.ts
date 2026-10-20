@@ -1,3 +1,7 @@
+/**
+ * Defines Express endpoints for N Ot If Ic At Io Ns operations. Connects request handlers and applies the relevant authentication or authorization middleware.
+ */
+
 import { Router } from 'express';
 import * as notificationsController from './notifications.controller';
 import { authenticate } from '../auth/guards/authenticate.guard';

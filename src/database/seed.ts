@@ -1,3 +1,7 @@
+/**
+ * Populates the development database with representative LMS records. Creates accounts, courses, and learning content using repeatable upserts.
+ */
+
 import { PrismaClient, Role, CourseStatus, QuizStatus } from '@prisma/client';
 import argon2 from 'argon2';
 

@@ -1,3 +1,7 @@
+/**
+ * Defines Express endpoints for E Nr Ol Lm En Ts operations. Connects request handlers and applies the relevant authentication or authorization middleware.
+ */
+
 import { Router } from 'express';
 import * as enrollmentsController from './enrollments.controller';
 import { authenticate } from '../auth/guards/authenticate.guard';

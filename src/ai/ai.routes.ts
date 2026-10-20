@@ -1,3 +1,7 @@
+/**
+ * Defines Express endpoints for AI features. Connects request handlers and applies the relevant authentication or authorization middleware.
+ */
+
 import { Router } from 'express';
 import * as aiController from './ai.controller';
 import { authenticate } from '../auth/guards/authenticate.guard';

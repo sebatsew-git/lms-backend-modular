@@ -1,3 +1,7 @@
+/**
+ * Handles HTTP requests for M At Er Ia Ls operations. Delegates business logic to the feature service and formats API responses.
+ */
+
 import { Request, Response } from 'express';
 import { asyncHandler } from '../common/utils/asyncHandler';
 import * as materialsService from './materials.service';

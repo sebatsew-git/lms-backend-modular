@@ -1,3 +1,7 @@
+/**
+ * Implements business operations for M At Er Ia Ls. Coordinates persistence and related feature services behind the API layer.
+ */
+
 import { prisma } from '../database/prisma';
 import { NotFoundError, BadRequestError } from '../common/errors/AppError';
 import { deleteUploadedFile, filenameFromUrl, fileMetadata } from '../storage/storage.service';

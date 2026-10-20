@@ -1,3 +1,7 @@
+/**
+ * Defines the PostgreSQL data model and generated Prisma client. Declares LMS entities, relationships, enums, and database mappings.
+ */
+
 generator client {
   provider = "prisma-client-js"
 }

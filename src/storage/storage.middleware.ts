@@ -1,3 +1,7 @@
+/**
+ * Configures upload handling for files submitted through the API. Applies storage naming and validation rules to incoming multipart requests.
+ */
+
 import multer from 'multer';
 import path from 'path';
 import { v4 as uuid } from 'uuid';

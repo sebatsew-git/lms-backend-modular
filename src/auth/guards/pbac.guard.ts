@@ -1,3 +1,7 @@
+/**
+ * Enforces permission-based access for protected API actions. Checks the user role permissions before allowing a request to proceed.
+ */
+
 import { Request, Response, NextFunction } from 'express';
 import { ForbiddenError } from '../../common/errors/AppError';
 

@@ -1,3 +1,7 @@
+/**
+ * Defines Express endpoints for M Od Ul Es operations. Connects request handlers and applies the relevant authentication or authorization middleware.
+ */
+
 import { Router } from 'express';
 import * as modulesController from './modules.controller';
 import { authenticate } from '../auth/guards/authenticate.guard';

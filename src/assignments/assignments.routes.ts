@@ -1,3 +1,7 @@
+/**
+ * Defines Express endpoints for A Ss Ig Nm En Ts operations. Connects request handlers and applies the relevant authentication or authorization middleware.
+ */
+
 import { Router } from 'express';
 import * as assignmentsController from './assignments.controller';
 import { authenticate } from '../auth/guards/authenticate.guard';

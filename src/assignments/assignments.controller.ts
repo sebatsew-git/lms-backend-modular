@@ -1,3 +1,7 @@
+/**
+ * Handles HTTP requests for A Ss Ig Nm En Ts operations. Delegates business logic to the feature service and formats API responses.
+ */
+
 import { Request, Response } from 'express';
 import { asyncHandler } from '../common/utils/asyncHandler';
 import * as assignmentsService from './assignments.service';

@@ -1,3 +1,7 @@
+/**
+ * Handles HTTP requests for N Ot If Ic At Io Ns operations. Delegates business logic to the feature service and formats API responses.
+ */
+
 import { Request, Response } from 'express';
 import { NotificationType } from '@prisma/client';
 import { asyncHandler } from '../common/utils/asyncHandler';

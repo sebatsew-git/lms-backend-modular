@@ -1,3 +1,7 @@
+/**
+ * Configures the Google generative AI client from environment settings. Exports the model used by AI services.
+ */
+
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { env } from './env';
 

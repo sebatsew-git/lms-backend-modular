@@ -1,3 +1,7 @@
+/**
+ * Implements email sending and related delivery workflows. Uses the configured mail transport and records relevant email status.
+ */
+
 import { transporter } from '../common/config/mailer';
 import { env } from '../common/config/env';
 import { prisma } from '../database/prisma';

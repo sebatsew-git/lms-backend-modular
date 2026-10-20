@@ -1,3 +1,7 @@
+/**
+ * Implements business operations for S Ub Mi Ss Io Ns. Coordinates persistence and related feature services behind the API layer.
+ */
+
 import { prisma } from '../database/prisma';
 import { NotFoundError, BadRequestError } from '../common/errors/AppError';
 import { SubmissionStatus, Prisma } from '@prisma/client';

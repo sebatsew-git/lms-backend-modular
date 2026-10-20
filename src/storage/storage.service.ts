@@ -1,3 +1,7 @@
+/**
+ * Provides file storage and cleanup operations for uploaded materials. Resolves stored file metadata and paths for feature services.
+ */
+
 import fs from 'fs';
 import path from 'path';
 import { env } from '../common/config/env';

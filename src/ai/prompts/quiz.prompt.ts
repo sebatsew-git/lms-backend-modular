@@ -1,3 +1,7 @@
+/**
+ * Defines the context and prompt used to generate quiz questions. Formats course and quiz details for the AI service.
+ */
+
 export interface QuizPromptContext {
   courseTitle: string;
   quizTitle: string;

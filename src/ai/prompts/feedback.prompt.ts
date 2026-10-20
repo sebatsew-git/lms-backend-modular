@@ -1,3 +1,7 @@
+/**
+ * Defines the context and prompt used to generate assignment feedback. Formats course and submission details for the AI service.
+ */
+
 export interface FeedbackPromptContext {
   courseTitle: string;
   assignmentTitle: string;

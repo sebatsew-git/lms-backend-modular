@@ -1,3 +1,7 @@
+/**
+ * Tests application bootstrap and public API behavior. Covers health status, API documentation, missing routes, and protected access.
+ */
+
 import { describe, it, expect } from 'vitest';
 import request from 'supertest';
 import app from '../src/app';

@@ -1,3 +1,7 @@
+/**
+ * Defines permissions assigned to each LMS role. Centralizes the authorization matrix used by route guards.
+ */
+
 import { Role } from '@prisma/client';
 
 export const ROLE_PERMISSIONS: Record<Role, string[]> = {

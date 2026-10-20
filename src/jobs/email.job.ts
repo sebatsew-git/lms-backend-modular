@@ -1,3 +1,7 @@
+/**
+ * Queues email delivery tasks for asynchronous processing. Invokes the email service without blocking the originating request.
+ */
+
 import { enqueue } from './queue';
 import {
   sendWelcomeEmail,

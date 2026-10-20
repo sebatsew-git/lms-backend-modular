@@ -1,3 +1,7 @@
+/**
+ * Implements business operations for L Es So Ns. Coordinates persistence and related feature services behind the API layer.
+ */
+
 import { prisma } from '../database/prisma';
 import { NotFoundError } from '../common/errors/AppError';
 

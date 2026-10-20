@@ -1,3 +1,7 @@
+/**
+ * Implements business operations for G Ra Di Ng. Coordinates persistence and related feature services behind the API layer.
+ */
+
 import { prisma } from '../database/prisma';
 import { NotFoundError, BadRequestError } from '../common/errors/AppError';
 import { SubmissionStatus } from '@prisma/client';

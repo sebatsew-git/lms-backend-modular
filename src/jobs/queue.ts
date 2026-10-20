@@ -1,3 +1,7 @@
+/**
+ * Implements the in-process asynchronous job queue. Tracks pending work and recent job outcomes for application monitoring.
+ */
+
 type JobFn = () => Promise<void>;
 
 interface QueuedJob {

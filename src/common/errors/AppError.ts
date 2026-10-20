@@ -1,3 +1,7 @@
+/**
+ * Defines the application error types used across API layers. Carries HTTP status and stable error codes for responses.
+ */
+
 export class AppError extends Error {
   statusCode: number;
   code: string;

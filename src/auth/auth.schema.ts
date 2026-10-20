@@ -1,3 +1,7 @@
+/**
+ * Defines Zod validation schemas for A Ut H requests. Exports rules used to validate incoming parameters and payloads before processing.
+ */
+
 import { z } from 'zod';
 
 export const passwordSchema = z

@@ -1,3 +1,7 @@
+/**
+ * Defines Express endpoints for M At Er Ia Ls operations. Connects request handlers and applies the relevant authentication or authorization middleware.
+ */
+
 import { Router } from 'express';
 import * as materialsController from './materials.controller';
 import { authenticate } from '../auth/guards/authenticate.guard';

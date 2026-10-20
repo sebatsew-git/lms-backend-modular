@@ -1,3 +1,7 @@
+/**
+ * Authenticates requests using the access token. Attaches verified identity data to the request or rejects unauthenticated access.
+ */
+
 import { Request, Response, NextFunction } from 'express';
 import { verifyAccessToken } from '../../common/utils/jwt.util';
 import { UnauthorizedError } from '../../common/errors/AppError';

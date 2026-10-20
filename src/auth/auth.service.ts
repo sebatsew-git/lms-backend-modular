@@ -1,3 +1,7 @@
+/**
+ * Implements business operations for A Ut H. Coordinates persistence and related feature services behind the API layer.
+ */
+
 import { prisma } from '../database/prisma';
 import { hashPassword, verifyPassword } from '../common/utils/password.util';
 import {

@@ -1,3 +1,7 @@
+/**
+ * Implements AI operations for feedback and quiz generation. Coordinates model requests and related application services.
+ */
+
 import { Prisma } from '@prisma/client';
 import { geminiModel } from '../common/config/ai';
 import { prisma } from '../database/prisma';

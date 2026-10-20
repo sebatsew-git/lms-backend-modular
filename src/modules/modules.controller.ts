@@ -1,3 +1,7 @@
+/**
+ * Handles HTTP requests for M Od Ul Es operations. Delegates business logic to the feature service and formats API responses.
+ */
+
 import { Request, Response } from 'express';
 import { asyncHandler } from '../common/utils/asyncHandler';
 import * as modulesService from './modules.service';

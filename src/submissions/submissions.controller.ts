@@ -1,3 +1,7 @@
+/**
+ * Handles HTTP requests for S Ub Mi Ss Io Ns operations. Delegates business logic to the feature service and formats API responses.
+ */
+
 import { Request, Response } from 'express';
 import { SubmissionStatus } from '@prisma/client';
 import { asyncHandler } from '../common/utils/asyncHandler';

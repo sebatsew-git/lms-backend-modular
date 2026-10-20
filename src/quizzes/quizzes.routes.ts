@@ -1,3 +1,7 @@
+/**
+ * Defines Express endpoints for Q Ui Zz Es operations. Connects request handlers and applies the relevant authentication or authorization middleware.
+ */
+
 import { Router } from 'express';
 import { z } from 'zod';
 import * as quizzesController from './quizzes.controller';

@@ -1,3 +1,7 @@
+/**
+ * Combines feature routers under the versioned API path. Exports the central router mounted by the application.
+ */
+
 import { Router } from 'express';
 import authRoutes from '../auth/auth.routes';
 import userRoutes from '../users/users.routes';

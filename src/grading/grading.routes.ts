@@ -1,3 +1,7 @@
+/**
+ * Defines Express endpoints for G Ra Di Ng operations. Connects request handlers and applies the relevant authentication or authorization middleware.
+ */
+
 import { Router } from 'express';
 import * as gradingController from './grading.controller';
 import { authenticate } from '../auth/guards/authenticate.guard';

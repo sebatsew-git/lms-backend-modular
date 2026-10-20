@@ -1,3 +1,7 @@
+/**
+ * Enforces attribute-based access rules for protected resources. Checks the requesting user and resource context before continuing.
+ */
+
 import { Request, Response, NextFunction } from 'express';
 import { ForbiddenError, NotFoundError } from '../../common/errors/AppError';
 import { prisma } from '../../database/prisma';

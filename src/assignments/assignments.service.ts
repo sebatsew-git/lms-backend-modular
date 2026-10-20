@@ -1,3 +1,7 @@
+/**
+ * Implements business operations for A Ss Ig Nm En Ts. Coordinates persistence and related feature services behind the API layer.
+ */
+
 import { prisma } from '../database/prisma';
 import { NotFoundError } from '../common/errors/AppError';
 import { assertEnrolled } from '../enrollments/enrollments.service';

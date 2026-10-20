@@ -1,3 +1,7 @@
+/**
+ * Tests JWT helper behavior and role permission assignments. Covers token round-trips, token hashing, and expected access rights.
+ */
+
 import { describe, it, expect } from 'vitest';
 import {
   signAccessToken,

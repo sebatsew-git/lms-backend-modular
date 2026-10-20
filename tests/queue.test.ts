@@ -1,3 +1,7 @@
+/**
+ * Tests asynchronous queue execution and job history. Verifies successful jobs and captured failures.
+ */
+
 import { describe, it, expect } from 'vitest';
 import { queue, enqueue, queueStats } from '../src/jobs/queue';
 

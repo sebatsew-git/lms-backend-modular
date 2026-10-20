@@ -1,3 +1,7 @@
+/**
+ * Implements business operations for E Nr Ol Lm En Ts. Coordinates persistence and related feature services behind the API layer.
+ */
+
 import { prisma } from '../database/prisma';
 import { NotFoundError, ConflictError, ForbiddenError } from '../common/errors/AppError';
 import { CourseStatus, EnrollmentStatus, Prisma } from '@prisma/client';

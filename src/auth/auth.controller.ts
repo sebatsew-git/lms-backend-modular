@@ -1,3 +1,7 @@
+/**
+ * Handles HTTP requests for A Ut H operations. Delegates business logic to the feature service and formats API responses.
+ */
+
 import { Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
 import { Role } from '@prisma/client';

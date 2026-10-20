@@ -1,3 +1,7 @@
+-- Applies the database schema changes for this migration.
+-- Creates or updates PostgreSQL structures for the LMS data model.
+-- Keeps the database schema aligned with the Prisma model.
+
 -- CreateEnum
 CREATE TYPE "Role" AS ENUM ('ADMIN', 'INSTRUCTOR', 'STUDENT');
 
